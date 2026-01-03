@@ -8,9 +8,13 @@ int power(int base, int exp) {
 int modulo(int a, int b) {
     return a % b;
 }
+int maxNumber(int a, int b) {
+    return (a > b) ? a : b;
+}
 int main(){
 
     cout << "Power: " << power(2, 3) << endl;
     cout << "Modulo: " << modulo(10, 3) << endl;
+    cout << "Max: " << maxNumber(10, 5) << endl;
     return 0;
 }

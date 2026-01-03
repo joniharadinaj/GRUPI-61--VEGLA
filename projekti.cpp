@@ -2,6 +2,9 @@
 #include <cmath>
 using namespace std;
 
+int sum(int a, int b) {
+    return a + b;
+}
 int power(int base, int exp) {
     return pow(base, exp);
 }
@@ -28,7 +31,7 @@ float divide(int a, int b) {
 }
 int main(){
 
-
+    cout << "Sum: " << sum(2, 3) << endl;
     cout << "Power: " << power(2, 3) << endl;
     cout << "Modulo: " << modulo(10, 3) << endl;
     cout << "Max: " << maxNumber(10, 5) << endl;

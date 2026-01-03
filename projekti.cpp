@@ -18,6 +18,14 @@ int minNumber(int a, int b) {
 int multiply(int a, int b) {
     return a * b;
 }
+
+float divide(int a, int b) {
+    if (b == 0) {
+        cout << "Error: Division by zero!" << endl;
+        return 0;
+    }
+    return (float)a / b;
+}
 int main(){
 
 
@@ -27,5 +35,6 @@ int main(){
     cout << "Min: " << minNumber(10, 5) << endl;
     int result = multiply(5, 3); 
     cout << "The result is: " << result << endl;
+    cout << "Divide: " << divide(10, 5) << endl;
     return 0;
 }

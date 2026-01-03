@@ -2,6 +2,9 @@
 #include <cmath>
 using namespace std;
 
+int subtract(int a, int b) {
+    return a - b;
+}
 int sum(int a, int b) {
     return a + b;
 }
@@ -30,7 +33,7 @@ float divide(int a, int b) {
     return (float)a / b;
 }
 int main(){
-
+    cout << "Subtract: " << subtract(2, 3) << endl;
     cout << "Sum: " << sum(2, 3) << endl;
     cout << "Power: " << power(2, 3) << endl;
     cout << "Modulo: " << modulo(10, 3) << endl;
